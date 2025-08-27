@@ -1,0 +1,18 @@
+.maintitle {
+            color:rgb(13, 0, 255);
+            background-color: rgb(205, 232, 255);
+
+        }
+        h1 {
+            color:rgb(127, 251, 255);
+            background-color: rgb(205, 233, 255);
+        }
+        h2 {
+            color:rgb(3, 0, 105);
+            background-color: rgb(205, 239, 255);
+        }
+        mark {
+            color:rgb(127, 210, 255);
+            background-color: rgb(7, 7, 93);
+        }
+        

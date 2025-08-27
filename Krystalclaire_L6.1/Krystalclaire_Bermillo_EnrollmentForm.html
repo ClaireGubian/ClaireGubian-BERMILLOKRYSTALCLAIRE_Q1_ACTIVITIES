@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Enrollment Form</tittle>
+        <style>h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>Enrolment Form</h1>
+        <br>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend><br>Learner Information</br></legend>
+                <label for="name">Full Name:</label>
+                <input type="text"
+                       id="name" 
+                       name="name" 
+                       placeholder="Enter your full name" 
+                       maxlength="30">
+            <br>
+                <label for="name">LRN:</label>
+                <input type="text" 
+                       id="name" 
+                       name="name"
+                       placeholder="LRN"
+                       maxlength="15">
+                <br>
+                <label for="pob">Place of birth (Municipality/city)</label>
+            <br>
+                <input type="text"
+                       id="pob" 
+                       name="pob" 
+                       placeholder="Type your Place of birth" 
+                       maxlength="60">
+            </input>
+            <br>
+               <label for="mt">Mother Tongeu</label>
+            <br>
+               <input type="text"
+                      id="mt" name="mt"
+                      placeholder="Mother Tongeu" 
+                      maxlength="60">
+            </input
+            <br>
+               <label for="email">Email:</label>
+               <input type="email" 
+                      id="email" 
+                      name="email" 
+                      placeholder="Enter your email">
+            <br>
+               <label for="dob">Date of Birth:</label>
+               <input type="date" 
+                      id="dob" 
+                      name="dob">
+            <br>
+               <label for="age">Age:</label>
+               <input type="number" 
+                      id="age"
+                      name="age"
+                      min="1" 
+                      max="120"
+            <br>
+               <label for="ip">Belonging to any Indigenous People (IP) Community/Indigenuos Cultural Community</label>
+            <br>
+               <input type="checkbox"
+                      id="yes"
+                      name="ip" 
+                      value="yes">
+               <label for="yes">Yes</label>
+               <input type="checkbox" 
+                      id="no" 
+                      name="ip" 
+                      value="no">
+               <label for="no">Female</label>
+               <input type="checkbox"
+                      id="iyps"
+                      name="Gender" 
+                      value="iyps">
+               <label for="iyps">If yes,please specify:</label>
+               <input type="text" 
+                      id="yes" 
+                      name="ip" 
+                      min="1" 
+                      max="50">
+            </fieldset>
+            <fieldset>
+                <legend><b>Current Addres</b></legend>
+                <label for="HN">House Number</label>
+                <input type="text"
+                       id="HN"
+                       name="HN"
+                       placeholder="Type your House Number"
+                       maxlength="10">
+                <br>
+                <label for="SSN">Sitio/Street Name:</label>
+                <input type="text"
+                       id="SSN"
+                       name="SSN"
+                       placeholder="Type your Sitio/Street Name"
+                       maxlength="30">
+                <br>
+                <label for="Barangay">Barangay:</label>
+                <input type="text" 
+                       id="Barangay"
+                       name="Barangay"
+                       placeholder="Type your Barangay"
+                       maxlength="20">
+                <br>
+                <label for="City">City:</label>
+                <input type="text"
+                       id="City"
+                       name="City"
+                       placeholder="Type your City"
+                       maxlength="20">
+                       <br>
+                <label for="Province">Province:</label>
+                <input type="text"
+                       id="Province"
+                       name="Province"
+                       placeholder="Type your Province"
+                       maxlength="20">
+                       <br>
+                <label for="Country">Country:</label>
+                <input type="text"
+                       id="Country"
+                       name="Country"
+                       placeholder="Type your Country"
+                       maxlength="20">
+                       <br>       
+                 <label for="zip">Zip Code:</label>
+                <input type="text"
+                       id="zip" name="zip"
+                       placeholder="Enter your zip zode"
+                       maxlength="10">
+                <br>
+                <legend><b>Permanent Address</b></legend>
+                <label for="HN">House Number:</label>
+                <input type="text" id="HN" 
+                       name="HN" 
+                       placeholder="Enter your House Number" 
+                       maxlength="10">
+                <br>   
+            </fieldset>
+            <fieldset>
+                <legend><b>Course Selection</b></legend>
+                <label for="course">Select Course:</label>
+                <select id="course" name="course">
+                    <option value="web_develepment"Web Development</option>
+                    <option value="data_science">Data Science</option>
+                    <option value="graphic_design">Graphic Design</option>    
+                </select> 
+            </fieldset>
+            </fieldset>
+            <fielset>
+                <legend><b>Parent/Guardian Information</b></legend>
+                <label for="parent_name">Parent Name:</label>
+                <input type="text"
+                       id="parent_name"
+                       name="parent_name"
+                       placeholder="type your Parent Name"
+                       maxlength="30">
+                <br>
+                <legend><b>parent/Guardian</b></legend>
+                <label for ="parent_contact">Contact Number:</label>
+                <input type="tel"
+                       id="parent_contact"
+                       name="parent_contact"
+                       placeholder="Enter contract number"
+                       maxlength="15">
+            </fielset>
+            <fieldset>
+                <legend><b>For Returning Learner(Balik Aral) and Those who will Transfer/Move in</b></legend>
+                <label for="last_school">Last School Attend:</label>
+                <input type="text"
+                       id="last_school"
+                       name="last_school"
+                       placeholder="Enter last attend"
+                       maxlength="50">
+                <br>
+                <label for="last_grade">Last Grade Level Complet:</label>
+                <input type="text"
+                       id="last_grade"
+                       name="last_grade"
+                       placeholder="Enter last Level "
+                       maxlength="50">
+                
+
+            </fieldset>
+
+
+            <botton type="submit">Submit Enrollment</botton>
+        </form>
+    </body>
+</html>
